@@ -18,7 +18,7 @@ namespace Crossplay
 
         }
 
-        public bool[] Mobile = new bool[256];
+        public bool[] Mobile { get; private set; } = new bool[256];
 
         public override void Initialize()
         {
